@@ -100,6 +100,47 @@ img {
   display: flex;
   align-items: center;
   position: relative; }
+  .v-header .burger .line1,
+  .v-header .burger .line3 {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: #fff;
+    margin: 5px 0;
+    border-radius: 20px; }
+  .v-header .burger .line2 {
+    display: block;
+    width: 17px;
+    height: 3px;
+    background: #fff;
+    margin: 5px 0;
+    border-radius: 20px;
+    transition: 0.2s linear; }
+  .v-header .burger:hover .line2 {
+    width: 25px; }
+  .v-header .burger div {
+    transition: 0.4s linear;
+    position: relative;
+    z-index: 7; }
+  .v-header .burger.active div:nth-of-type(2) {
+    opacity: 0;
+    transform: translateX(-100px); }
+  .v-header .burger.active div:nth-of-type(1) {
+    transform: rotate(45deg) translate(5px, 6px); }
+  .v-header .burger.active div:nth-of-type(3) {
+    transform: rotate(-45deg) translate(5px, -6px); }
+  .v-header .burger.active div {
+    background: #fff; }
+  .v-header .burger {
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    cursor: pointer;
+    overflow: hidden;
+    padding: 5px;
+    transition: 0.3s ease-out; }
+  .v-header .burger-move-right {
+    left: 120px; }
   .v-header .video-wrapper {
     position: absolute;
     top: 0;
@@ -136,5 +177,36 @@ img {
     .v-header .header-content .header-slogan {
       font-size: 30px;
       max-width: 90%; }
+
+.mobile-nav {
+  position: absolute;
+  top: 0px;
+  left: -100%;
+  width: 170px;
+  height: 100vh;
+  background: rgba(144, 172, 209, 0.93);
+  transition: 0.2s ease-in;
+  z-index: 6;
+  padding: 90px 0; }
+  .mobile-nav .logo-wrapper {
+    max-width: 50%; }
+  .mobile-nav ul a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding-left: 25px; }
+  .mobile-nav ul li {
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+    .mobile-nav ul li:first-of-type {
+      border-top: 1px solid rgba(255, 255, 255, 0.2); }
+  .mobile-nav .fa {
+    color: #fff;
+    font-size: 30px; }
+
+.mobile-nav-show {
+  left: 0%; }
 
 /*# sourceMappingURL=myPartials.css.map */

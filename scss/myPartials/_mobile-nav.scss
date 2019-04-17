@@ -1,0 +1,42 @@
+.mobile-nav {
+    position: absolute;
+    top: 0px;
+    left: -100%;
+    width: 170px;
+    height: 100vh;
+    background: rgba(144, 172, 209, 0.93); 
+    transition: 0.2s ease-in;
+    z-index: 6;
+    padding: 90px 0;
+    
+    .logo-wrapper {
+        max-width: 50%;
+    }
+    
+    ul {
+        a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 24px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            padding-left: 25px;
+        }
+
+        li {
+            padding: 5px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            &:first-of-type {
+                border-top: 1px solid rgba(255, 255, 255, 0.2);
+            }
+        }
+    }
+    .fa {
+        color: #fff;
+        font-size: 30px;
+    }
+}
+
+.mobile-nav-show {
+    left: 0%;
+}
