@@ -62,45 +62,40 @@ and open the template in the editor.
     </head>
     <body>
 
-        <!--SIDE NAVBAR START-->
+        <!-- SIDE NAVBAR START -->
         <aside class="side-bar position-fixed d-none d-md-block">
+
             <div class="side-bar-wrapper d-flex flex-column justify-content-between">
 
-                <div class="logo-wrapper mx-auto">
+                <span class="side-bar-toggle fa fa-angle-left toggle-border-left"></span> <!-- SIDE-MENU TOGGLE BUTTON -->
+
+                <div class="logo-wrapper mx-auto mb-5">
                     <a href="#home">
                         <img src="img/side-navbar/side-nav-logo.png" alt="Developer logo"/>
                     </a>
                     <div class="side-menu-line"></div> <!----SIDE BAR LINE---->
                 </div>
-
-                <nav class="side-bar-nav">
-
-                    
-
-                    
-                        <ul class="navbar-nav list-unstyled mx-auto">
-                            <li class="nav-item  active">
-                                <a href="#home" class="nav-link py-0 hvr-bounce-in">home </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#about" class="nav-link py-0 hvr-bounce-in">about</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#portfolio" class="nav-link py-0 hvr-bounce-in">portfolio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#youtube" class="nav-link py-0 hvr-bounce-in">youtube</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#contact" class="nav-link py-0 hvr-bounce-in">contact</a>
-                            </li>
-                        </ul>
-                    
+                <nav class="side-bar-nav mb-5 mb-md-0">
+                    <ul class="navbar-nav list-unstyled mx-auto">
+                        <li class="nav-item  active">
+                            <a href="#home" class="nav-link py-0 hvr-bounce-in">home </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link py-0 hvr-bounce-in">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#portfolio" class="nav-link py-0 hvr-bounce-in">portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#youtube" class="nav-link py-0 hvr-bounce-in">youtube</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link py-0 hvr-bounce-in">contact</a>
+                        </li>
+                    </ul>
                 </nav>
 
-<!--                <div class="toggle-arrow"><span class="small-arrow fa fa-angle-left"></span></div>  SIDE-MENU TOGGLE BUTTON -->
-
-                <div class="side-bar-social text-center">
+                <div class="side-bar-social d-none d-md-block text-center">
                     <a href="#" class="fa fa-linkedin-square hvr-bounce-in"></a>
                     <a href="#" class="fa fa-instagram ml-2 hvr-bounce-in"></a>
                     <a href="#" class="fa fa-facebook-square ml-2 hvr-bounce-in"></a>
@@ -109,7 +104,38 @@ and open the template in the editor.
 
             </div>
         </aside>
-        <!--SIDE NAVBAR END-->
+        <!-- SIDE NAVBAR END -->
+
+        <!-- MAIN START -->
+        <main>
+
+            <!-- HEADER START -->
+            <header class="v-header">
+
+                <div class="video-wrapper">
+                    <video autoplay="" loop="" preload="" muted="">
+                        <source src="video/video-bg.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="header-overlay"></div>
+
+                <div class="header-content mx-auto text-center">
+                    <p class="header-intruduction mb-4 text-white">This is the <span class="text-primary">portfolio</span> of</p>
+                    <h1 class="display-4 developer d-inline-block mb-4">Dejan <span class="last-name">Dodos</span></h1>
+                    <p class="header-slogan mb-5 text-white mx-auto">convering ideas into proper code &#47;&#62;</p>
+                    <div class="header-cta">
+                        <button class="btn btn-outline-primary btn-lg hvr-ripple-out">Resume.pdf</button>
+                        <button class="btn btn-lg btn-primary ml-1 ml-xsm-3">Contact me</button>
+                    </div>
+                </div>
+
+
+            </header>
+            <!-- HEADER EBD -->
+
+
+        </main>
+        <!-- MAIN END -->
 
 
 

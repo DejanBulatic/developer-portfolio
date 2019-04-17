@@ -1,0 +1,60 @@
+.v-header {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+    .video-wrapper {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        
+        video {
+            min-width: 100%;
+            min-height: 100%;
+            pointer-events: none;
+            
+        }
+    }
+    .header-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.6);
+        z-index: 1;
+    }
+    
+    .header-content {
+        z-index: 2;
+        
+        
+        .developer {
+            font-family: 'Anton', sans-serif;
+            color: #fff;
+            font-size: 100px;
+            line-height: 1.1;
+            
+            
+            
+            @media(min-width:992px) {
+                font-size: 120px;
+            }
+            .last-name {
+                color: #F16821;
+            }
+        }
+        
+        .header-intruduction {
+            font-size: 25px;
+        }
+        .header-slogan {
+            font-size: 30px;
+            max-width: 90%;
+        }
+    }
+}

@@ -4,6 +4,23 @@ html {
     font-size: 16px;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 img {
     max-width: 100%;
+}
+
+.main-full-width {
+    margin-left: 0px;
+}
+
+
+
+@media(min-width:768px){
+    main {
+        margin-left: 250px;
+        transition: 0.3s linear;
+    }
 }
