@@ -1,10 +1,36 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 16-Apr-2019, 22:51:35
-    Author     : Dejan
-*/
+@import url('https://fonts.googleapis.com/css?family=Anton');
 
+// font-family: 'Anton', sans-serif;
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,700');
+
+// font-family: 'Poppins', sans-serif;
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
+// font-family: 'Roboto', sans-serif;
+
+
+
+@font-face {
+  font-family: 'SegoeUI';
+  src: url('../fonts/segoe-UI/SegoeUI.eot?#iefix') format('embedded-opentype'),  url('../fonts/segoe-UI/SegoeUI.woff') format('woff'), url('../fonts/segoe-UI/SegoeUI.ttf')  format('truetype'), url('../fonts/segoe-UI/SegoeUI.svg#SegoeUI') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'SegoePro-Light';
+  src: url('../fonts/segoe-PRO-light/SegoePro-Light.eot?#iefix') format('embedded-opentype'),  url('../fonts/segoe-PRO-light/SegoePro-Light.woff') format('woff'), url('../fonts/segoe-PRO-light/SegoePro-Light.ttf')  format('truetype'), url('../fonts/segoe-PRO-light/SegoePro-Light.svg#SegoePro-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'SegoePro-Semibold';
+  src: url('../fonts/segoePROsemibold/SegoePro-Semibold.eot?#iefix') format('embedded-opentype'),  url('../fonts/segoePROsemibold/SegoePro-Semibold.woff') format('woff'), url('../fonts/segoePROsemibold/SegoePro-Semibold.ttf')  format('truetype'), url('../fonts/segoePROsemibold/SegoePro-Semibold.svg#SegoePro-Semibold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,55 @@
+.side-bar {
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 250px;
+    background: #90acd1;
+    transition: 0.3s ease-in;
+    z-index: 4;
+
+    .side-bar-wrapper {
+        height: 100%;
+        padding: 40px 0;
+
+        .logo-wrapper {
+            max-width: 50%;
+            position: relative;
+            
+            .side-menu-line {
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                bottom: -40px;
+                width: 165%;
+                height: 1px;
+                background: rgba(255, 255, 255, 0.2);
+            }
+        }
+
+        nav.side-bar-nav {
+            padding-left: 30%;
+
+            li {
+                margin-bottom: 17px;
+            }
+            a {
+                color: #fff;
+                font-size: 24px;
+                font-family: 'Poppins', sans-serif;
+                font-weight: 500;
+            }
+
+        }
+
+        .side-bar-social {
+            .fa {
+                color: #fff;
+                font-size: 40px;
+            }
+        }
+
+    }
+
+
+
+}
