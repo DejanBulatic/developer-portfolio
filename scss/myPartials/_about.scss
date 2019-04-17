@@ -1,0 +1,61 @@
+.about-section {
+    padding-top: 48px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    
+    @media(min-width:1200px) {
+            padding-top: 100px;
+        }
+
+    .about-overlay {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.8) , rgba(255, 255, 255, 0.99));
+    }
+
+    img {
+        max-width: 80%;
+        border-radius: 50%;
+        border: 10px solid #0C4A8B;
+
+        @media(min-width:992px) {
+            max-width: 100%;
+            border-radius: 0%;
+            border: none;
+        }
+    }
+    .about-content {
+        font-size: 25px;
+        
+        @media(min-width:1080px) {
+            font-size: 30px;
+        }
+        @media(min-width:1200px) {
+            font-size: 40px;
+        }
+    }
+    .about-cta {
+        z-index: 8;
+    }
+}
+
+.artist-name:after {
+    content: '';
+    height: 3px;
+    width: 200px;
+    position: absolute;
+    display: block;
+    right: -210px;
+    top: 55%;
+    transform: translateY(-50%);
+    background: #000;
+
+    @media(min-width:768px) {
+        width: 100px;
+        right: -110px;
+    }
+}

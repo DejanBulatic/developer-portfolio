@@ -35,7 +35,7 @@ and open the template in the editor.
 
 
         <!--external css, like plugins ...-->
-
+        <link href="css/owl.carousel.css" rel="stylesheet" type="text/css"/>
 
 
 
@@ -122,7 +122,7 @@ and open the template in the editor.
                 <!-- BURGER BUTTON END-->
 
                 <!-- MOBILE NAVIGATION START -->
-                <div class="mobile-nav d-flex flex-column justify-content-between d-md-none">
+                <div class="mobile-nav position-fixed d-flex flex-column justify-content-between d-md-none">
                     <div class="logo-wrapper mx-auto">
                         <a href="#home">
                             <img src="img/side-navbar/side-nav-logo.png" alt="Developer logo"/>
@@ -161,7 +161,7 @@ and open the template in the editor.
                     </video>
                 </div>
                 <div class="header-overlay"></div>
-
+                <!-- HEADER CONTENT START -->
                 <div class="header-content mx-auto text-center">
                     <p class="header-intruduction mb-4 text-white">This is the <span class="text-primary">portfolio</span> of</p>
                     <h1 class="display-4 developer d-inline-block mb-4">Dejan <span class="last-name">Dodos</span></h1>
@@ -170,11 +170,82 @@ and open the template in the editor.
                         <button class="btn btn-outline-primary btn-lg hvr-ripple-out">Resume.pdf</button>
                         <button class="btn btn-lg btn-primary ml-1 ml-xsm-3">Contact me</button>
                     </div>
+                    <!-- HEADER CONTENT END -->
                 </div>
-
-
             </header>
-            <!-- HEADER EBD -->
+            <!-- HEADER END -->
+
+            <!-- ABOUT SECTION START -->
+            <section class="about-section" id="about" style="background-image: url(img/about/digital-world.jpg)">
+                <div class="about-overlay"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 mb-5 mb-md-0 d-lg-flex flex-lg-column justify-content-lg-end ">
+                            <figure class="text-center">
+                                <img class="d-lg-none" src="img/about/round3.png" alt=""/>
+                                <img class="d-none d-lg-inline-block" src="img/about/about-img.png" alt=""/>
+                            </figure>
+                        </div>
+                        <div class="col-12 col-md-6 d-xlg-flex flex-xlg-column justify-content-xlg-center pb-4">
+                            <article>
+                                <h3 class="about-content mb-5"><span class="d-inline-block artist-name position-relative">Dejan</span><br>
+                                    is a creative web developer specialized in
+                                    front-end development. <br>With an eye for details and UI design 
+                                    he brings ideas to life by mixing code and creativity 
+                                </h3>
+                                <div class="about-cta text-center text-md-left">
+                                    <a href="#" class="btn btn-outline-primary btn-lg hvr-ripple-out mb-md-2 mb-xmd-0">Resume.pdf</a>
+                                    <a href="#" class="btn btn-lg btn-primary ml-1 ml-md-0 ml-xsm-3">Contact</a>
+                                </div>
+                            </article>
+                            <div class="about-cta text-center mr-lg-5 d-none">
+                                <a href="#" class="btn btn-outline-primary btn-lg hvr-ripple-out">Resume.pdf</a>
+                                <a href="#" class="btn btn-lg btn-primary ml-1 ml-xsm-3">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <!-- ABOUT SECTION END -->
+
+            <!-- BRANDS SECTION START -->
+            <section class="brands-section">
+                <div class="brands-section-content mx-auto py-3">
+                    <div class="slider-bg">
+                        <div class="brand-slider-wrapper mx-auto">
+                            <ul class="list-unstyled mb-0 owl-carousel brands-slider mx-auto">
+                                <li>
+                                    <figure class="brands-slider-item mb-0">
+                                        <img class="mx-auto" src="img/brands-slider/cubes_logo_black.png" alt=""/>
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure class="brands-slider-item mb-0">
+                                        <img class="mx-auto" src="img/brands-slider/mogo-brand-black.png" alt=""/>
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure class="brands-slider-item mb-0">
+                                        <img class="mx-auto" src="img/brands-slider/skewed-brand_black.png" alt=""/>
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure class="brands-slider-item mb-0">
+                                        <img class="mx-auto" src="img/brands-slider/udemi-brand-black.png" alt=""/>
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure class="brands-slider-item mb-0">
+                                        <img class="mx-auto" src="img/brands-slider/informer-brand-black.png" alt=""/>
+                                    </figure>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- BRANDS SECTION END -->
 
 
         </main>
@@ -197,6 +268,8 @@ and open the template in the editor.
         <script src="js/popper.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
 
+        <!--plugins-->
+        <script src="js/owl.carousel.min.js" type="text/javascript"></script>
 
         <!--All page js-->
         <script src="js/main.js" type="text/javascript"></script>

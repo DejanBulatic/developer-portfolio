@@ -1,0 +1,32 @@
+.brands-section-content {
+    /*    border-top: 5px solid #ccc;
+        border-bottom: 5px solid #ccc;*/
+    background: linear-gradient(to left, #1959C1, #90ACD1);
+    width: 100%;
+    height: 100%;
+    /*    border-radius: 80px;
+        box-shadow: -4px 4px 30px rgba(0, 0, 0, 0.2);*/
+
+    .slider-bg {
+        background: #fff;
+
+        .brand-slider-wrapper {
+            width: 90%;
+            padding: 30px 0;
+            
+            @media(min-width:1080px) {
+            padding: 41px 0;
+        }
+            
+            .brands-slider img {
+                max-width: 150px;
+                
+                @media(min-width:1080px) {
+            max-width: 100px;
+        }
+            }
+        }
+    }
+}
+
+
