@@ -427,4 +427,148 @@ figure {
     color: #000;
     text-decoration: none; }
 
+.contact-section {
+  padding: 48px 0;
+  background-position: center center;
+  background-size: cover;
+  position: relative; }
+  @media (min-width: 1200px) {
+    .contact-section {
+      padding: 100px 0px; } }
+  .contact-section .contact-gradient {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: linear-gradient(to left, rgba(11, 137, 152, 0.93), rgba(1, 133, 189, 0.93)); }
+  .contact-section .contact-introduction {
+    font-family: 'SegoePro';
+    color: #fff;
+    line-height: 2.8rem;
+    font-size: 2.5rem;
+    margin-bottom: 20px; }
+    @media (min-width: 1200px) {
+      .contact-section .contact-introduction {
+        font-size: 3rem; } }
+  .contact-section .email-wrapper a {
+    font-family: 'SegoePro-Semibold';
+    text-decoration: none;
+    color: rgba(225, 225, 225, 0.5);
+    font-size: 1.5rem;
+    transition: 0.2s linear; }
+    .contact-section .email-wrapper a a:hover {
+      color: rgba(225, 225, 225, 0.8); }
+    @media (min-width: 1200px) {
+      .contact-section .email-wrapper a {
+        font-size: 1.8rem; } }
+  .contact-section .contact-social .fa {
+    text-decoration: none;
+    color: rgba(225, 225, 225, 0.5);
+    font-size: 80px;
+    transition: 0.2s linear; }
+    @media (min-width: 992px) {
+      .contact-section .contact-social .fa {
+        font-size: 9rem; } }
+    .contact-section .contact-social .fa:hover {
+      color: rgba(225, 225, 225, 0.8); }
+
+/*****TOOLTIP START*****/
+.tooltipset {
+  position: relative;
+  display: inline-block; }
+  .tooltipset:hover .tooltipstexten {
+    visibility: visible;
+    font-size: 20px; }
+  .tooltipset .tooltipstexten {
+    visibility: hidden;
+    width: 120px;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    border-radius: 6px;
+    padding: 15px 0;
+    box-shadow: -10px 10px 25px rgba(0, 0, 0, 0.5);
+    /*Position the tooltip */
+    bottom: 100%;
+    left: 50%;
+    position: absolute;
+    z-index: 25; }
+    .tooltipset .tooltipstexten::after {
+      content: " ";
+      position: absolute;
+      top: 100%;
+      /*At the bottom of the tooltip */
+      left: 10%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: #fff transparent transparent transparent; }
+
+input.form-control {
+  font-family: 'SegoePro-Semibold';
+  background: transparent;
+  border: none;
+  border-radius: 0px;
+  border-bottom: 1px solid rgba(225, 225, 225, 0.4);
+  color: #fff;
+  font-size: 20px; }
+  input.form-control:focus {
+    background: transparent;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid #80bdff;
+    outline: none;
+    box-shadow: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'SegoePro-Semibold'; }
+  input.form-control::placeholder {
+    font-family: 'SegoePro-Semibold';
+    color: rgba(225, 225, 225, 0.4);
+    font-size: 20px; }
+
+textarea.form-control {
+  font-family: 'SegoePro-Semibold';
+  background: transparent !important;
+  border: none;
+  border-radius: 0px;
+  border-bottom: 1px solid rgba(225, 225, 225, 0.4);
+  outline: none;
+  box-shadow: none;
+  max-height: 150px;
+  min-height: 150px;
+  color: #fff;
+  font-size: 20px; }
+  textarea.form-control:focus {
+    background: transparent;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid #80bdff;
+    outline: none;
+    box-shadow: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'SegoePro-Semibold'; }
+  textarea.form-control::placeholder {
+    font-family: 'SegoePro-Semibold';
+    color: rgba(225, 225, 225, 0.4);
+    font-size: 20px; }
+
+.contact-section .btn-testimonial {
+  color: #e1e1e1;
+  font-size: 30px;
+  background: transparent;
+  border: none;
+  border: 9px solid #e1e1e1;
+  border-radius: 40px;
+  padding: 0px 30px;
+  /*    box-shadow: 3px 3px 10px rgba(0,0,0,0.4);*/
+  transition: 0.2s linear;
+  cursor: pointer;
+  font-family: 'SegoePro-Semibold'; }
+  .contact-section .btn-testimonial:hover {
+    color: rgba(225, 225, 225, 0.8);
+    border: 9px solid rgba(225, 225, 225, 0.8); }
+
 /*# sourceMappingURL=myPartials.css.map */

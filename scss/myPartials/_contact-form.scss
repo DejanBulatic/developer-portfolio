@@ -1,0 +1,80 @@
+input.form-control {
+    font-family: 'SegoePro-Semibold';
+    background: transparent;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid rgba(225, 225, 225, 0.4);
+    color: #fff;
+    font-size: 20px;
+
+    &:focus {
+        background: transparent;
+        border: none;
+        border-radius: 0px;
+        border-bottom: 1px solid #80bdff;
+        outline: none;
+        box-shadow: none;
+        color: #fff;
+        font-size: 20px;
+        font-family: 'SegoePro-Semibold';
+    }
+
+    &::placeholder {
+        font-family: 'SegoePro-Semibold';
+        color: rgba(225, 225, 225, 0.4);
+        font-size: 20px;
+    }
+}
+
+textarea.form-control {
+    font-family: 'SegoePro-Semibold';
+    background: transparent !important;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid rgba(225, 225, 225, 0.4);
+    outline: none;
+    box-shadow: none;
+    max-height: 150px;
+    min-height: 150px;
+    color: #fff;
+    font-size: 20px;
+
+    &:focus {
+        background: transparent;
+        border: none;
+        border-radius: 0px;
+        border-bottom: 1px solid #80bdff;
+        outline: none;
+        box-shadow: none;
+        color: #fff;
+        font-size: 20px;
+        font-family: 'SegoePro-Semibold';
+    }
+
+    &::placeholder {
+        font-family: 'SegoePro-Semibold';
+        color: rgba(225, 225, 225, 0.4);
+        font-size: 20px;
+    }
+}
+
+
+.contact-section .btn-testimonial {
+    color: rgba(225, 225, 225, 1);
+    font-size: 30px;
+    background: transparent;
+    border: none;
+    border: 9px solid rgba(225, 225, 225, 1);
+    border-radius: 40px;
+    padding: 0px 30px;
+    /*    box-shadow: 3px 3px 10px rgba(0,0,0,0.4);*/
+    transition: 0.2s linear;
+    cursor: pointer;
+    font-family: 'SegoePro-Semibold';
+
+    &:hover {
+        color: rgba(225, 225, 225, 0.8);
+        border: 9px solid rgba(225, 225, 225, 0.8);
+    }
+}
+
