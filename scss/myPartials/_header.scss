@@ -108,10 +108,19 @@
 
         .header-intruduction {
             font-size: 25px;
+            
+            @media(min-width:992px) {
+                font-size: 30px;
+            }
         }
         .header-slogan {
             font-size: 30px;
             max-width: 90%;
+            
+            @media(min-width:992px) {
+                font-size: 40px;
+                max-width: 100%;
+            }
         }
     }
 }

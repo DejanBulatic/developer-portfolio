@@ -1,0 +1,101 @@
+.work-section {
+    padding-top: 48px;
+
+    @media(min-width:1200px) {
+        padding-top: 100px;
+    }
+
+    .section-header {
+        font-family: 'Anton', sans-serif;
+        font-size: 2.5rem; 
+        color: #F16821;
+
+        @media(min-width:1200px) {
+            font-size: 2.7rem;
+        }
+    }
+
+    .section-description {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1rem;
+        color: rgba(0, 0, 0, 0.5);
+        margin-bottom: 48px;
+
+        @media(min-width:992px) {
+            margin-bottom: 100px;
+        }
+        @media(min-width:1080px) {
+            margin-bottom: 150px;
+        }
+        @media(min-width:1200px) {
+            margin-bottom: 200px;
+            font-size: 1.2rem;
+        }
+    }
+
+    .work-item {
+        margin-bottom: 20px;
+        &:last-of-type {
+            margin-bottom: 0px;
+        }
+
+        h3 {
+            ont-family: 'SegoeUI';
+
+            @media(min-width:1200px) {
+                font-size: 2.1rem;
+            }
+        }
+
+        .project-description {
+            font-family: 'SegoePro-Light';
+            font-size: 1.25px;
+            
+            @media(min-width:992px) {
+                font-size: 1.5rem;
+            }
+        }
+
+        img {
+            max-width: 90%;
+
+            @media(min-width:992px) {
+                max-width: 100%;
+            }
+        }
+        .desktop-mockup{
+            box-shadow: -5px 5px 25px #D5D5F3;
+        }
+
+        .project-hashtags {
+            .hashtag {
+                font-family: 'SegoePro-Semibold';
+                color: #EE37EE;
+                border: 1px solid #EE37EE;
+                border-radius: 20px;
+                font-size: 12px;
+                line-height: 29px;
+            }
+
+            a {
+                font-family: 'SegoePro-Semibold';
+                text-decoration: none;
+                background: #EE37EE;
+                color: #fff;
+                border: 1px solid #EE37EE;
+                border-radius: 20px;
+                font-size: 12px;
+                line-height: 29px;
+                transition: 0.2s linear;
+                &:hover {
+                    background: #d631d6;
+                    border-color: #d631d6;
+                }
+            }
+        }
+
+
+    }
+
+}
+

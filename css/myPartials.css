@@ -54,15 +54,19 @@ figure {
       display: inline-block;
       height: 50px;
       width: 50px;
-      font-size: 50px;
+      font-size: 43px;
+      line-height: 41px;
       background: #fff;
       text-align: center;
       cursor: pointer;
-      transition: 0.3s linear; }
+      transition: 0.3s linear;
+      border: 5px solid #90ACD1; }
     .side-bar .side-bar-wrapper .toggle-border-left {
-      border-radius: 10px 0px 0px 10px; }
+      border-radius: 15px 0px 0px 15px;
+      border-right: none; }
     .side-bar .side-bar-wrapper .toggle-border-right {
-      border-radius: 0px 10px 10px 0px; }
+      border-radius: 0px 15px 15px 0px;
+      border-left: none; }
     .side-bar .side-bar-wrapper .side-bar-toggle-closed {
       right: -100px; }
     @media (min-width: 768px) {
@@ -177,9 +181,16 @@ figure {
         color: #F16821; }
     .v-header .header-content .header-intruduction {
       font-size: 25px; }
+      @media (min-width: 992px) {
+        .v-header .header-content .header-intruduction {
+          font-size: 30px; } }
     .v-header .header-content .header-slogan {
       font-size: 30px;
       max-width: 90%; }
+      @media (min-width: 992px) {
+        .v-header .header-content .header-slogan {
+          font-size: 40px;
+          max-width: 100%; } }
 
 .mobile-nav {
   position: absolute;
@@ -216,7 +227,11 @@ figure {
   padding-top: 48px;
   background-size: cover;
   background-position: center center;
+  background-attachment: fixed;
   position: relative; }
+  @media (min-width: 992px) {
+    .about-section {
+      background-attachment: scroll; } }
   @media (min-width: 1200px) {
     .about-section {
       padding-top: 100px; } }
@@ -230,20 +245,21 @@ figure {
   .about-section img {
     max-width: 80%;
     border-radius: 50%;
-    border: 10px solid #0C4A8B; }
+    border: 10px solid #115398; }
     @media (min-width: 992px) {
       .about-section img {
         max-width: 100%;
         border-radius: 0%;
         border: none; } }
   .about-section .about-content {
-    font-size: 25px; }
+    font-size: 1.5rem; }
     @media (min-width: 1080px) {
       .about-section .about-content {
-        font-size: 30px; } }
+        font-size: 1.8rem; } }
     @media (min-width: 1200px) {
       .about-section .about-content {
-        font-size: 40px; } }
+        font-size: 2.5rem;
+        line-height: 2.9rem; } }
   .about-section .about-cta {
     z-index: 8; }
 
@@ -283,5 +299,75 @@ figure {
         @media (min-width: 1080px) {
           .brands-section-content .slider-bg .brand-slider-wrapper .brands-slider img {
             max-width: 100px; } }
+
+.work-section {
+  padding-top: 48px; }
+  @media (min-width: 1200px) {
+    .work-section {
+      padding-top: 100px; } }
+  .work-section .section-header {
+    font-family: 'Anton', sans-serif;
+    font-size: 2.5rem;
+    color: #F16821; }
+    @media (min-width: 1200px) {
+      .work-section .section-header {
+        font-size: 2.7rem; } }
+  .work-section .section-description {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 48px; }
+    @media (min-width: 992px) {
+      .work-section .section-description {
+        margin-bottom: 100px; } }
+    @media (min-width: 1080px) {
+      .work-section .section-description {
+        margin-bottom: 150px; } }
+    @media (min-width: 1200px) {
+      .work-section .section-description {
+        margin-bottom: 200px;
+        font-size: 1.2rem; } }
+  .work-section .work-item {
+    margin-bottom: 20px; }
+    .work-section .work-item:last-of-type {
+      margin-bottom: 0px; }
+    .work-section .work-item h3 {
+      ont-family: 'SegoeUI'; }
+      @media (min-width: 1200px) {
+        .work-section .work-item h3 {
+          font-size: 2.1rem; } }
+    .work-section .work-item .project-description {
+      font-family: 'SegoePro-Light';
+      font-size: 1.25px; }
+      @media (min-width: 992px) {
+        .work-section .work-item .project-description {
+          font-size: 1.5rem; } }
+    .work-section .work-item img {
+      max-width: 90%; }
+      @media (min-width: 992px) {
+        .work-section .work-item img {
+          max-width: 100%; } }
+    .work-section .work-item .desktop-mockup {
+      box-shadow: -5px 5px 25px #D5D5F3; }
+    .work-section .work-item .project-hashtags .hashtag {
+      font-family: 'SegoePro-Semibold';
+      color: #EE37EE;
+      border: 1px solid #EE37EE;
+      border-radius: 20px;
+      font-size: 12px;
+      line-height: 29px; }
+    .work-section .work-item .project-hashtags a {
+      font-family: 'SegoePro-Semibold';
+      text-decoration: none;
+      background: #EE37EE;
+      color: #fff;
+      border: 1px solid #EE37EE;
+      border-radius: 20px;
+      font-size: 12px;
+      line-height: 29px;
+      transition: 0.2s linear; }
+      .work-section .work-item .project-hashtags a:hover {
+        background: #d631d6;
+        border-color: #d631d6; }
 
 /*# sourceMappingURL=myPartials.css.map */
