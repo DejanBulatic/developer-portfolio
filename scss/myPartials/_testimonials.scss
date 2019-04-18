@@ -1,0 +1,91 @@
+.testimonial-section {
+    padding: 48px 0;
+    background: #EBEBEB;
+
+    @media(min-width:1200px) {
+        padding: 100px 0;
+    }
+
+    .testimonial-slider {
+        max-width: 600px;
+
+        img {
+            max-width: 90px;
+            border-radius: 50%;
+        }
+
+        .testimonial-person {
+            .fa {
+                font-size: 25px;
+                color: #CCCCCC;
+            }
+            a {
+                text-decoration: none;
+                color: #ccc;
+            }
+
+        } 
+
+        .testimonial-description {
+            font-size: 22px;
+            font-weight: 300;
+        }
+    }
+
+    .testimonial-content {
+        .fa {
+            color: #efc83e;
+            font-size: 20px;
+        }
+
+    } 
+
+    .testimonial-slider .owl-nav {
+        position: absolute;
+        width: 100% !important;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .testimonial-slider .owl-prev {
+        position: absolute;
+        left: -100px !important;
+    }
+    .testimonial-slider .owl-next {
+        position: absolute;
+        right: -100px !important;
+    }
+    .testimonial-slider button {
+        padding: 0;
+        text-align: center;
+    }
+    button:focus {
+        outline: 1px dotted;
+        outline: none;
+    }
+    .testimonial-slider .owl-nav .fa {
+        font-size: 20px;
+        width: 50px;
+        height: 50px;
+        background: #fff;
+        border-radius: 50%;
+        line-height: 50px;
+        box-shadow: 3px 3px 10px #D5D5F3;
+        cursor: pointer;
+        transition: 0.3s linear;
+    }
+    .testimonial-slider .owl-nav .fa:hover {
+        transform: translateY(-10%);
+    }
+    .owl-carousel .owl-nav [class*='owl-']:hover {
+        background: none;
+        color: #000;
+        text-decoration: none;
+    }
+}
+
+
+
+
+
+
