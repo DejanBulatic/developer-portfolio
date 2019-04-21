@@ -1,0 +1,16 @@
+.small-header {
+    background: none;
+    height: 50px;
+    width: 100%;
+    z-index: 6;
+    transition: 0.2s linear;
+}
+
+.small-header-active{
+    background: rgba(0,0,0,0.8);
+
+}
+
+.small-header-trans {
+    background: transparent !important;
+}

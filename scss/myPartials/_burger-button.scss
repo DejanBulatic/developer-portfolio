@@ -1,0 +1,54 @@
+// BURGER BUTTON START
+    .burger .line1,
+    .burger .line3 {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background: #fff;
+        margin: 5px 0;
+        border-radius: 20px;
+    }
+    .burger .line2 {
+        display: block;
+        width: 17px;
+        height: 3px;
+        background: #fff;
+        margin: 5px 0;
+        border-radius: 20px;
+        transition: 0.2s linear;
+    }
+    .burger:hover .line2 {
+        width: 25px;
+    }
+    .burger div {
+        transition: 0.4s linear;
+        position: relative;
+        z-index: 7;
+    }
+    .burger.active div:nth-of-type(2) {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    .burger.active div:nth-of-type(1) {
+        transform: rotate(45deg) translate(5px, 6px);
+    }
+    .burger.active div:nth-of-type(3) {
+        transform: rotate(-45deg) translate(5px, -6px);
+    }
+    .burger.active div {
+        background: #fff;
+    }
+    .burger {
+        position: absolute;
+        left: 40px;
+        top: 5px;
+        cursor: pointer;
+        overflow: hidden;
+        padding: 5px;
+        transition: 0.3s ease-out;
+    }
+    
+    .burger-move-right {
+        left: 120px;
+    }
+    // BURGER BUTTON END

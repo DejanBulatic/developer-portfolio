@@ -96,30 +96,38 @@ and open the template in the editor.
                 </nav>
 
                 <div class="side-bar-social d-none d-md-block text-center">
+                    <p class="connect text-left"><i>Connect</i></p>
                     <a href="#" target="0" class="fa fa-linkedin-square hvr-bounce-in"></a>
                     <a href="https://www.instagram.com/db.development/" target="0" class="fa fa-instagram ml-2 hvr-bounce-in"></a>
-                    <a target="0" class="fa fa-facebook-square ml-2 hvr-bounce-in"></a>
-                    <a target="0" class="fa fa-youtube-square ml-2 hvr-bounce-in"></a>
+                    <a target="0" class="fa fa-facebook-square ml-2 hvr-bounce-in tooltipset">
+                        <span class="tooltipstexten">Comming soon</span>
+                    </a>
+                    <a target="0" class="fa fa-youtube-square ml-2 hvr-bounce-in tooltipset">
+                        <span class="tooltipstexten">Comming soon</span>
+                    </a>
                 </div>
 
             </div>
         </aside>
         <!-- SIDE NAVBAR END -->
 
-        <!-- MAIN START -->
-        <main>
-
-            <!-- HEADER START -->
-            <header class="v-header">
-
-
-                <!-- BURGER BUTTON START -->
+        <!-- MOBILE HEADER  START -->
+        <div class="small-header py-4 position-fixed d-md-none" >
+            <div class="container">
                 <div class="burger d-md-none">
                     <div class="line1"></div>
                     <div class="line2"></div>
                     <div class="line3"></div>
                 </div>
-                <!-- BURGER BUTTON END-->
+            </div>
+        </div>
+        <!-- MBILE HEADER END -->
+
+        <!-- MAIN START -->
+        <main>
+
+            <!-- HEADER START -->
+            <header class="v-header" id="home">
 
                 <!-- MOBILE NAVIGATION START -->
                 <div class="mobile-nav position-fixed d-flex flex-column justify-content-between d-md-none">
@@ -168,10 +176,12 @@ and open the template in the editor.
                     <p class="header-slogan mb-5 text-white mx-auto">convering ideas into proper code &#47;&#62;</p>
                     <div class="header-cta">
                         <button class="btn btn-outline-primary btn-lg hvr-ripple-out">Resume.pdf</button>
-                        <button class="btn btn-lg btn-primary ml-1 ml-xsm-3">Contact me</button>
+                        <a href="#contact" class="btn btn-lg btn-primary ml-1 ml-xsm-3">Contact me</a>
                     </div>
                     <!-- HEADER CONTENT END -->
                 </div>
+
+                <div class="scrolldown d-none d-md-block"></div><!-- SCROLL DOWN ANIMATED LINE -->
             </header>
             <!-- HEADER END -->
 
@@ -195,12 +205,12 @@ and open the template in the editor.
                                 </h3>
                                 <div class="about-cta text-center text-md-left">
                                     <a href="#" class="btn btn-outline-primary btn-lg hvr-ripple-out mb-md-2 mb-xmd-0">Resume.pdf</a>
-                                    <a href="#" class="btn btn-lg btn-primary ml-1 ml-md-0 ml-xsm-3">Contact</a>
+                                    <a href="#contact" class="btn btn-lg btn-primary ml-1 ml-md-0 ml-xsm-3">Contact</a>
                                 </div>
                             </article>
                             <div class="about-cta text-center mr-lg-5 d-none">
                                 <a href="#" class="btn btn-outline-primary btn-lg hvr-ripple-out">Resume.pdf</a>
-                                <a href="#" class="btn btn-lg btn-primary ml-1 ml-xsm-3">Contact</a>
+                                <a href="#contact" class="btn btn-lg btn-primary ml-1 ml-xsm-3">Contact</a>
                             </div>
                         </div>
                     </div>
@@ -544,6 +554,25 @@ and open the template in the editor.
             </section>
             <!-- TESTIMONIALS SECTION END -->
 
+            <!-- YOUTUBE SECTION START -->
+            <section class="youtube-section text-white" id="youtube">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h1>Youtube section</h1>
+                            <h3>UNDER CONSTRUCTION</h3>
+                            <h3>COMMING SOON</h3>
+                        </div>
+                        <div class="col-12 col-md-6">
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </section>
+            <!-- YOUTUBE SECTION END -->
+
             <!-- CONTACT SECTION START -->
             <section class="contact-section page-section" id="contact" style="background-image: url(img/contact/contact-bg.png)">
                 <div class="contact-gradient"></div>
@@ -592,8 +621,40 @@ and open the template in the editor.
             </section>
             <!-- CONTACT SECTION END -->
 
+            <!-- FOOTER START -->
+            <footer class="text-white">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6  d-flex flex-column justify-content-end order-last order-md-first">
+                            <div class="footer-info">
+                                <p class="d-inline-block text-white mb-0">&copy; 2019 website created by </p>
+                                <a href="https://www.dejandodos.com" target="0" class="d-inline-block mb-0">Dejan</a>
+                                <br>  
+                                <p class="d-inline-block text-white mb-1">Background photo created by mindandi - </p>
+                                <a href="https://www.freepik.com/free-photos-vectors/background" target="0">www.freepik.com</a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 mb-5 mb-md-0">
+                            <div class="insta-wrap text-center">
+                                <div>
+                                    <a href="https://www.instagram.com/db.development/" target="0" class="d-inline-block mb-4">Follow on instagram</a>
+                                </div>
+                                <!-- LightWidget WIDGET -->
+                                <script src="https://cdn.lightwidget.com/widgets/lightwidget.js">
+
+                                </script><iframe src="//lightwidget.com/widgets/bb34eafa52e65252a6ede871f3d89794.html" 
+                                                 scrolling="no" allowtransparency="true" class="lightwidget-widget" 
+                                                 style="width:300px;border:0;overflow:hidden;"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- FOOTER END -->
+
         </main>
         <!-- MAIN END -->
+
 
 
 

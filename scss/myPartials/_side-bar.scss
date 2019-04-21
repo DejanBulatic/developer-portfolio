@@ -6,6 +6,8 @@
     background: #90acd1;
     transition: 0.3s linear;
     z-index: 4;
+    
+
 
     .side-bar-wrapper {
         position: relative;
@@ -25,7 +27,7 @@
             text-align: center;
             cursor: pointer;
             transition: 0.3s linear;
-            border: 5px solid #90ACD1;
+            border: 5px solid #046BDA;
         }
         .toggle-border-left {
             border-radius: 15px 0px 0px 15px;
@@ -41,8 +43,8 @@
 
         @media(min-width:768px){
             .side-bar-toggle-closed {
-            right: -50px;
-        }
+                right: -50px;
+            }
         }
 
         .logo-wrapper {
@@ -75,8 +77,15 @@
             }
 
         }
-
+        .connect {
+            font-family: 'SegoePro-Semibold';
+            margin-left: 24%;
+            color: rgba(255, 255, 255, 0.3);
+        }
         .side-bar-social {
+            a {
+                text-decoration: none;
+            }
             .fa {
                 color: #fff;
                 font-size: 40px;

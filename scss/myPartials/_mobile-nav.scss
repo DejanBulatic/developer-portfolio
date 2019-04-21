@@ -4,10 +4,14 @@
     left: -100%;
     width: 170px;
     height: 100vh;
-    background: rgba(144, 172, 209, 0.93); 
+    background: rgba(144, 172, 209, 0.98); 
     transition: 0.2s ease-in;
-    z-index: 6;
+    z-index: 5;
     padding: 90px 0;
+    
+    a {
+        text-decoration: none;
+    }
     
     .logo-wrapper {
         max-width: 50%;
@@ -15,7 +19,6 @@
     
     ul {
         a {
-            text-decoration: none;
             color: #fff;
             font-size: 24px;
             font-family: 'Poppins', sans-serif;
