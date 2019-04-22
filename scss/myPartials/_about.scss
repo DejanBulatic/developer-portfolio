@@ -33,6 +33,27 @@
             border: none;
         }
     }
+    
+    .resp-cta-1 {
+        display: none;
+        
+        
+        @media(min-width:768px) {
+            display: block;
+        }
+        @media(min-width:799px) {
+            display: none;
+        }
+    }
+    .resp-cta-2 {
+        
+        @media(min-width:768px) {
+            display: none;
+        }
+        @media(min-width:799px) {
+            display: block;
+        }
+    }
     .about-content {
         font-size: 1.5rem;
         
@@ -64,4 +85,11 @@
         width: 100px;
         right: -110px;
     }
+    @media(min-width:1066px) {
+        width: 220px;
+        right: -230px;
+        height: 5px;
+    }
 }
+
+

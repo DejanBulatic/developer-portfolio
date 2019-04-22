@@ -36,7 +36,7 @@ and open the template in the editor.
 
         <!--external css, like plugins ...-->
         <link href="css/owl.carousel.css" rel="stylesheet" type="text/css"/>
-
+        <link href="css/animations.css" rel="stylesheet" type="text/css"/>
 
 
 
@@ -78,19 +78,19 @@ and open the template in the editor.
                 <nav class="side-bar-nav mb-5 mb-md-0">
                     <ul class="navbar-nav list-unstyled mx-auto">
                         <li class="nav-item  active">
-                            <a href="#home" class="nav-link py-0 hvr-bounce-in">home </a>
+                            <a href="#home" class="nav-link py-0 fade-in-left">home </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#about" class="nav-link py-0 hvr-bounce-in">about</a>
+                            <a href="#about" class="nav-link py-0 fade-in-left delay-1">about</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#portfolio" class="nav-link py-0 hvr-bounce-in">portfolio</a>
+                            <a href="#portfolio" class="nav-link py-0 fade-in-left delay-2">portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#youtube" class="nav-link py-0 hvr-bounce-in">youtube</a>
+                            <a href="#youtube" class="nav-link py-0 fade-in-left delay-3">youtube</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#contact" class="nav-link py-0 hvr-bounce-in">contact</a>
+                            <a href="#contact" class="nav-link py-0 fade-in-left delay-4">contact</a>
                         </li>
                     </ul>
                 </nav>
@@ -172,10 +172,10 @@ and open the template in the editor.
                 <!-- HEADER CONTENT START -->
                 <div class="header-content mx-auto text-center">
                     <p class="header-intruduction mb-4 text-white">This is the <span class="text-primary">portfolio</span> of</p>
-                    <h1 class="display-4 developer d-inline-block mb-4">Dejan <span class="last-name">Dodos</span></h1>
+                    <h1 class="display-4 developer d-inline-block mb-4 fade-in-right delay-2">Dejan <span class="last-name">Dodos</span></h1>
                     <p class="header-slogan mb-5 text-white mx-auto">convering ideas into proper code &#47;&#62;</p>
-                    <div class="header-cta">
-                        <button class="btn btn-outline-primary btn-lg hvr-ripple-out">Resume.pdf</button>
+                    <div class="header-cta fade-in-bottom">
+                        <button class="btn btn-outline-primary btn-lg">Resume.pdf</button>
                         <a href="#contact" class="btn btn-lg btn-primary ml-1 ml-xsm-3">Contact me</a>
                     </div>
                     <!-- HEADER CONTENT END -->
@@ -194,18 +194,58 @@ and open the template in the editor.
                             <figure class="text-center">
                                 <img class="d-lg-none" src="img/about/round3.png" alt=""/>
                                 <img class="d-none d-lg-inline-block" src="img/about/about-img.png" alt=""/>
+                                
+                                <div class="about-cta text-center resp-cta-1" >
+                                    <a href="#" class="btn btn-outline-primary btn-lg mb-2 mt-4 d-inline-block  animation"
+                                       data-animation="slideUp">Resume.pdf</a>
+                                    <a href="#contact" class="btn btn-lg btn-primary ml-1 ml-md-0 ml-xsm-3 d-inline-block  animation"
+                                       data-animation="slideUp" data-delay="0.3s">Contact</a>
+                                </div>
                             </figure>
                         </div>
                         <div class="col-12 col-md-6 d-xlg-flex flex-xlg-column justify-content-xlg-center pb-5">
-                            <article>
-                                <h3 class="about-content mb-5"><span class="d-inline-block artist-name position-relative">Dejan</span><br>
+                            <article class="d-none d-lg-block">
+                                <p class="about-content animation mb-0" data-animation="slideUp">
+                                    <span class="d-inline-block artist-name position-relative">Dejan</span>
+                                </p>
+                                <p class="about-content animation mb-0" data-animation="slideUp" data-delay="0.3s">
+                                    is a creative web developer
+                                </p>
+                                <p class="about-content animation mb-0" data-animation="slideUp" data-delay="0.6s">
+                                    specialized in
+                                    front-end
+                                </p>
+                                <p class="about-content animation mb-0" data-animation="slideUp" data-delay="0.9s">
+                                    development. With an eye for
+                                </p>
+                                <p class="about-content animation mb-0" data-animation="slideUp" data-delay="1.2s">
+                                    details and UX design 
+                                    he
+                                </p>
+                                <p class="about-content animation mb-0" data-animation="slideUp" data-delay="1.5s">
+                                    brings ideas to life by mixing
+                                </p>
+                                <p class="about-content animation mb-4" data-animation="slideUp" data-delay="1.8s">
+                                    code and creativity
+                                </p>
+                                <div class="about-cta text-center text-md-left" >
+                                    <a href="#" class="btn btn-outline-primary btn-lg mb-md-2 mb-xmd-0 d-inline-block  animation"
+                                       data-animation="slideUp" data-delay="2s">Resume.pdf</a>
+                                    <a href="#contact" class="btn btn-lg btn-primary ml-1 ml-md-0 ml-xsm-3 d-inline-block  animation"
+                                       data-animation="slideUp" data-delay="2.2s">Contact</a>
+                                </div>
+                            </article>
+                            <article class="d-lg-none">
+                                <h3 class="about-content mb-5 animation" data-animation="slideLeft" data-delay="0.5s"><span class="d-inline-block artist-name position-relative">Dejan</span><br>
                                     is a creative web developer specialized in
-                                    front-end development. <br>With an eye for details and UI design 
+                                    front-end development. With an eye for details and UX design 
                                     he brings ideas to life by mixing code and creativity 
                                 </h3>
-                                <div class="about-cta text-center text-md-left">
-                                    <a href="#" class="btn btn-outline-primary btn-lg hvr-ripple-out mb-md-2 mb-xmd-0">Resume.pdf</a>
-                                    <a href="#contact" class="btn btn-lg btn-primary ml-1 ml-md-0 ml-xsm-3">Contact</a>
+                                <div class="about-cta text-center text-md-left resp-cta-2" >
+                                    <a href="#" class="btn btn-outline-primary btn-lg mb-md-2 mb-xmd-0 d-inline-block  animation"
+                                       data-animation="slideUp">Resume.pdf</a>
+                                    <a href="#contact" class="btn btn-lg btn-primary ml-1 ml-md-0 ml-xsm-3 d-inline-block  animation"
+                                       data-animation="slideUp" data-delay="0.3s">Contact</a>
                                 </div>
                             </article>
                             <div class="about-cta text-center mr-lg-5 d-none">
@@ -247,7 +287,7 @@ and open the template in the editor.
                                 </li>
                                 <li>
                                     <figure class="brands-slider-item mb-0">
-                                        <img class="mx-auto" src="img/brands-slider/informer-brand-black.png" alt=""/>
+                                        <img class="mx-auto" src="img/brands-slider/sunshine.png" alt=""/>
                                     </figure>
                                 </li>
                             </ul>
@@ -266,20 +306,20 @@ and open the template in the editor.
 
                     <!-- PROJECT NR 1 -->
                     <article class="work-item">
-                        <h3 class="project-title mb-5 text-center text-lg-left">The Mogo template</h3>
+                        <h3 class="project-title mb-5 text-center text-lg-left animation" data-animation="slideUp">The Mogo template</h3>
                         <div class="row align-items-start">
-                            <div class="col-12 col-lg-5 text-left mb-5 pr-lg-5">
-                                <p class="project-description mb-3">
+                            <div class="col-12 col-lg-5 text-left mb-5 pr-lg-5 pt-lg-5">
+                                <p class="project-description mb-3 animation" data-animation="slideUp">
                                     Highly clean and light, one page tamplate made 
                                     from scratch looking at a design. Added some colors, animations
                                     and a video to make it fun. Responsive and mobile first
                                     of cuorse, looks great on all devices
                                 </p>
-                                <ul class="mb-3 project-details">
+                                <ul class="mb-3 project-details animation" data-animation="slideUp">
                                     <li>PROJECT: Mogo</li>
                                     <li>ROLE: Font end & design</li>
                                 </ul>
-                                <div class="project-hashtags">
+                                <div class="project-hashtags animation" data-animation="slideUp">
                                     <p class="hashtag d-inline-block px-3">Front-end</p>
                                     <p class="hashtag d-inline-block px-3">UX/UI</p>
                                     <p class="hashtag d-inline-block px-3">Bootstrap</p>
@@ -315,24 +355,24 @@ and open the template in the editor.
 
                     <!-- PROJECT NR 2 -->
                     <article class="work-item">
-                        <h3 class="project-title mb-5 text-center text-lg-right mr-lg-3">The Skewes template</h3>
+                        <h3 class="project-title mb-5 text-center text-lg-right mr-lg-3 animation" data-animation="slideUp">The Skewes template</h3>
                         <div class="row">
-                            <div class="col-12 col-lg-5 text-left mb-5 pl-lg-5">
-                                <p class="project-description mb-3">
+                            <div class="col-12 col-lg-5 text-left mb-5 pl-lg-5 pt-lg-5">
+                                <p class="project-description mb-3 animation" data-animation="slideUp">
                                     Skewed is a slightly wonky landing page template
                                 </p>
-                                <ul class="mb-3 project-details">
+                                <ul class="mb-3 project-details animation" data-animation="slideUp">
                                     <li>PROJECT: Skewed</li>
                                     <li>ROLE: Font end</li>
                                 </ul>
-                                <div class="project-hashtags">
+                                <div class="project-hashtags animation" data-animation="slideUp">
                                     <p class="hashtag d-inline-block px-3">Front-end</p>
                                     <p class="hashtag d-inline-block px-3">Bootstrap</p>
                                     <p class="hashtag d-inline-block px-3">Html5</p>
                                     <p class="hashtag d-inline-block px-3">CSS3</p>
                                     <p class="hashtag d-inline-block px-3">jQuery</p>
                                     <a class="d-inline-block px-3" target="0" href="https://github.com/dejanweb/skewed">GIThub</a>
-                                    <a class="d-inline-block px-3" target="0" href="https://github.com/dejanweb/mogo">LIVE demo</a>
+                                    <a class="d-inline-block px-3" target="0" href="https://github.com/dejanweb/skewed">LIVE demo</a>
                                 </div>
                             </div>
 
@@ -360,21 +400,21 @@ and open the template in the editor.
 
                     <!-- PROJECT NR 3 -->
                     <article class="work-item">
-                        <h3 class="project-title mb-5 text-center text-lg-left">Komentar</h3>
+                        <h3 class="project-title mb-5 text-center text-lg-left animation" data-animation="slideUp">Komentar</h3>
                         <div class="row align-items-start">
-                            <div class="col-12 col-lg-5 text-left mb-5 pr-lg-5">
-                                <p class="project-description mb-3">
+                            <div class="col-12 col-lg-5 text-left mb-5 pr-lg-5 pt-lg-5">
+                                <p class="project-description mb-3 animation" data-animation="slideUp">
                                     News portal made for a company that wanted
                                     to expand their influence letting readers
                                     log in and comment their favorite articles.
                                     The site will be lounched as soon as the backend
                                     is ready
                                 </p>
-                                <ul class="mb-3 project-details">
+                                <ul class="mb-3 project-details animation" data-animation="slideUp">
                                     <li>PROJECT: Komentari
                                     <li>ROLE: Font end</li>
                                 </ul>
-                                <div class="project-hashtags">
+                                <div class="project-hashtags animation" data-animation="slideUp">
                                     <p class="hashtag d-inline-block px-3">Front-end</p>
                                     <p class="hashtag d-inline-block px-3">Bootstrap</p>
                                     <p class="hashtag d-inline-block px-3">Html5</p>
@@ -382,25 +422,25 @@ and open the template in the editor.
                                     <p class="hashtag d-inline-block px-3">jQuery</p>
                                     <p class="hashtag d-inline-block px-3">javaScript</p>
                                     <a class="d-inline-block px-3" target="0" href="https://github.com/dejanweb/komentar">GIThub</a>
-                                    <a class="d-inline-block px-3" target="0" href="https://github.com/dejanweb/mogo">LIVE demo</a>
+                                    <a class="d-inline-block px-3" target="0" href="https://github.com/dejanweb/komentar">LIVE demo</a>
                                 </div>
                             </div>
 
                             <div class="col-12 col-lg-7 order-first order-lg-last mb-4 mb-lg-0">
                                 <div class="img-wrapper d-none d-lg-flex lax" data-lax-preset="eager-180">
                                     <figure class="text-left pt-5">
-                                        <img src="img/portfolio/mogo-phone.png" alt=""/>
+                                        <img src="img/portfolio/komentar-phone.png" alt=""/>
                                     </figure>
                                     <figure>
-                                        <img src="img/portfolio/mogo-desk.png" class="desktop-mockup" alt=""/>
+                                        <img src="img/portfolio/komentar-desk.png" class="desktop-mockup" alt=""/>
                                     </figure>
                                 </div>
                                 <div class="img-wrapper d-flex d-lg-none">
                                     <figure class="text-left pt-5">
-                                        <img src="img/portfolio/mogo-phone.png" alt=""/>
+                                        <img src="img/portfolio/komentar-phone.png" alt=""/>
                                     </figure>
                                     <figure>
-                                        <img src="img/portfolio/mogo-desk.png" class="desktop-mockup" alt=""/>
+                                        <img src="img/portfolio/komentar-desk.png" class="desktop-mockup" alt=""/>
                                     </figure>
                                 </div>
                             </div>
@@ -581,15 +621,22 @@ and open the template in the editor.
                     <div class="row">
                         <div class="col-12 col-lg-6 mb-4 mb-lg-00">
                             <article class="contact-info  text-center text-lg-left">
-                                <h3 class="contact-introduction text-white">Get in touch...</h3>
+                                <h3 class="contact-introduction text-white animation" data-animation="slideUp">Get in touch...</h3>
                                 <div class="email-wrapper mb-4">
-                                    <a href="dejandodos@outlook.com" class="mailto-link">dejandodos@outlook.com</a>
+                                    <a href="dejandodos@outlook.com" class="mailto-link d-inline-block animation" 
+                                       data-animation="slideUp" data-delay="0.3s">dejandodos@outlook.com</a>
                                 </div>
                                 <div class="contact-social">
-                                    <a href="https://www.linkedin.com/in/dejan-d-16b585177/" target="0" class="fa fa-linkedin-square tooltipset">
+                                    <a href="https://www.linkedin.com/in/dejan-d-16b585177/" 
+                                       target="0" class="fa fa-linkedin-square tooltipset animation" 
+                                       data-animation="slideUp"
+                                       data-delay="0.6s">
                                         <span class="tooltipstexten">LinkedIn</span>
                                     </a>
-                                    <a href="https://www.instagram.com/db.development/" target="0" class="fa fa-instagram tooltipset ml-3">
+                                    <a href="https://www.instagram.com/db.development/" 
+                                       target="0" class="fa fa-instagram tooltipset ml-3 animation" 
+                                       data-animation="slideUp"
+                                       data-delay="0.9s">
                                         <span class="tooltipstexten">Instagram</span>
                                     </a>
                                 </div>

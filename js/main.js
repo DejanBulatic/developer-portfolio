@@ -25,11 +25,38 @@ $(document).ready(function () {
         }
     }
 
+
+
+
+    // ANIMATION ON SCROLL 
+    function animation() {
+
+        var windowHeight = $(window).height();
+        var scrollDown = $(window).scrollTop();
+
+        $('.animation').each(function () {
+            var position = $(this).offset().top;
+
+            if (position < scrollDown + windowHeight - 50) {
+                var animacija = $(this).attr('data-animation');
+                var delay = $(this).attr('data-delay');
+                $(this).css('animation-delay', delay);
+                $(this).addClass(animacija);
+
+            }
+        });
+    }
+
+
+
+
     animateHeader();
+    animation()
 
     $(window).scroll(function () {
         animateHeader();
         checkOffset();
+        animation()
     });
 
 
@@ -51,9 +78,6 @@ $(document).ready(function () {
         if ($('.mobile-nav').hasClass('mobile-nav-show')) {
             $('.small-header').removeClass('small-header-active');
         }
-
-
-//        
 
     });// BURGER BUTTON ANIMATION END
 
@@ -83,6 +107,9 @@ $(document).ready(function () {
 
 
 
+
+
+// LAX ANIMATIONS PROJECTS
     window.onload = function () {
         lax.setup({
             breakpoints: {small: 0, large: 992}
@@ -108,7 +135,8 @@ $(document).ready(function () {
             loop: true,
             dots: false,
             center: true,
-//            autoplay: true,
+            autoplay: true,
+            autoplayHoverPause: true,
             responsive: {
                 0: {
                     items: 1
@@ -150,7 +178,8 @@ $(document).ready(function () {
             items: 1,
             loop: true,
             margin: 20,
-//            autoplay: true,
+            autoplay: true,
+            autoplayHoverPause: true,
             navText: ['<span class="fa fa-long-arrow-left"></span>', '<span class="fa fa-long-arrow-right"></span>'],
             responsive: {
                 0: {
