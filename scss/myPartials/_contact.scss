@@ -36,7 +36,7 @@
             color: rgba(225, 225, 225, 0.5);
             font-size: 1.5rem;
             transition: 0.2s linear;
-            a:hover {
+            &:hover {
                 color: rgba(225, 225, 225, 0.8);
             }
 
@@ -50,11 +50,11 @@
         .fa {
             text-decoration: none;
             color: rgba(225, 225, 225, 0.5);
-            font-size: 80px;
+            font-size: 30px;
             transition: 0.2s linear;
             
             @media(min-width:992px) {
-            font-size: 9rem;
+            font-size: 30px;
         }
             
             &:hover {

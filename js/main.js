@@ -65,14 +65,14 @@ $(document).ready(function () {
 // BURGER BUTTON ANIMATION  
 
     $('.burger').click(function () {
-
+        var scrollTop = $(window).scrollTop();
 
         $(this).toggleClass('active burger-move-right');
         $('.mobile-nav').toggleClass('mobile-nav-show');
         $('.body-overlay').toggleClass('body-overlay-show');
 
 
-        if (!$('.mobile-nav').hasClass('mobile-nav-show')) {
+        if (!$('.mobile-nav').hasClass('mobile-nav-show') && scrollTop > 10) {
             $('.small-header').addClass('small-header-active');
         }
         if ($('.mobile-nav').hasClass('mobile-nav-show')) {
@@ -189,7 +189,7 @@ $(document).ready(function () {
 
                 },
                 991: {
-
+                    nav: true
                 },
                 1200: {
                     nav: true

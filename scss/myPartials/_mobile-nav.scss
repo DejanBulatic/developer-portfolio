@@ -3,11 +3,11 @@
     top: 0px;
     left: -100%;
     width: 170px;
-    height: 100vh;
+    height: 100%;
     background: rgba(144, 172, 209, 0.98); 
     transition: 0.2s ease-in;
     z-index: 5;
-    padding: 90px 0;
+    
     
     a {
         text-decoration: none;
@@ -15,6 +15,7 @@
     
     .logo-wrapper {
         max-width: 50%;
+        margin-bottom: 96px;
     }
     
     ul {

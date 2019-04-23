@@ -51,18 +51,19 @@
 
     .testimonial-slider .owl-nav {
         position: absolute;
-        width: 100% !important;
-        top: 50%;
-        transform: translateY(-50%);
+        width: 50% !important;
+        bottom: 45px;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     .testimonial-slider .owl-prev {
         position: absolute;
-        left: -100px !important;
+        left: 0px !important;
     }
     .testimonial-slider .owl-next {
         position: absolute;
-        right: -100px !important;
+        right: 0px !important;
     }
     .testimonial-slider button {
         padding: 0;

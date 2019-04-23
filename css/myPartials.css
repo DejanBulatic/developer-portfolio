@@ -38,7 +38,7 @@ figure {
 .side-bar {
   top: 0;
   left: 0;
-  height: 100vh;
+  height: 100%;
   width: 200px;
   background: #90acd1;
   transition: 0.3s linear;
@@ -419,15 +419,15 @@ figure {
   top: 0px;
   left: -100%;
   width: 170px;
-  height: 100vh;
+  height: 100%;
   background: rgba(144, 172, 209, 0.98);
   transition: 0.2s ease-in;
-  z-index: 5;
-  padding: 90px 0; }
+  z-index: 5; }
   .mobile-nav a {
     text-decoration: none; }
   .mobile-nav .logo-wrapper {
-    max-width: 50%; }
+    max-width: 50%;
+    margin-bottom: 96px; }
   .mobile-nav ul a {
     color: #fff;
     font-size: 24px;
@@ -489,6 +489,7 @@ figure {
     .about-section .resp-cta-2 {
       display: block; } }
   .about-section .about-content {
+    font-family: 'SegoePro-Semibold';
     font-size: 1.5rem; }
     @media (min-width: 1080px) {
       .about-section .about-content {
@@ -655,15 +656,16 @@ figure {
     font-size: 20px; }
   .testimonial-section .testimonial-slider .owl-nav {
     position: absolute;
-    width: 100% !important;
-    top: 50%;
-    transform: translateY(-50%); }
+    width: 50% !important;
+    bottom: 45px;
+    left: 50%;
+    transform: translateX(-50%); }
   .testimonial-section .testimonial-slider .owl-prev {
     position: absolute;
-    left: -100px !important; }
+    left: 0px !important; }
   .testimonial-section .testimonial-slider .owl-next {
     position: absolute;
-    right: -100px !important; }
+    right: 0px !important; }
   .testimonial-section .testimonial-slider button {
     padding: 0;
     text-align: center; }
@@ -721,7 +723,7 @@ figure {
     color: rgba(225, 225, 225, 0.5);
     font-size: 1.5rem;
     transition: 0.2s linear; }
-    .contact-section .email-wrapper a a:hover {
+    .contact-section .email-wrapper a:hover {
       color: rgba(225, 225, 225, 0.8); }
     @media (min-width: 1200px) {
       .contact-section .email-wrapper a {
@@ -729,11 +731,11 @@ figure {
   .contact-section .contact-social .fa {
     text-decoration: none;
     color: rgba(225, 225, 225, 0.5);
-    font-size: 80px;
+    font-size: 30px;
     transition: 0.2s linear; }
     @media (min-width: 992px) {
       .contact-section .contact-social .fa {
-        font-size: 9rem; } }
+        font-size: 30px; } }
     .contact-section .contact-social .fa:hover {
       color: rgba(225, 225, 225, 0.8); }
 
@@ -818,21 +820,6 @@ textarea.form-control {
     font-family: 'SegoePro-Semibold';
     color: rgba(225, 225, 225, 0.4);
     font-size: 20px; }
-
-.contact-section .btn-testimonial {
-  color: #e1e1e1;
-  font-size: 30px;
-  background: transparent;
-  border: none;
-  border: 9px solid #e1e1e1;
-  border-radius: 40px;
-  padding: 0px 30px;
-  transition: 0.2s linear;
-  cursor: pointer;
-  font-family: 'SegoePro-Semibold'; }
-  .contact-section .btn-testimonial:hover {
-    color: rgba(225, 225, 225, 0.8);
-    border: 9px solid rgba(225, 225, 225, 0.8); }
 
 footer {
   background: #90acd1;

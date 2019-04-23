@@ -1,0 +1,104 @@
+unlimited.rs
+Poštovani Aleksandar Jankovic,
+OVAJ MAIL SADRŽI SVE NEOPHODNE I POVERLJIVE PODATKE VEZANE ZA VAŠ HOSTING NALOG.
+MOLIMO DA GA DETALJNO PROCITATE I ZAŠTITITE OD ZLOUPOTREBE!
+
+Zahvaljujemo Vam se na poverenju koje ste nam ukazali.
+Vaš web hosting nalog je uspešno kreiran i u ovom email-u se nalaze Vaši pristupni podaci za cPanel i FTP.
+
+ 
+
+Informacije o hosting nalogu
+
+Hosting paket: Start Web
+Domen: dejan.in
+Prvo placanje: 3.490,00 RSD
+Naredno placanje: 3.490,00 RSD
+Ciklus: godišnje
+Sledece placanje: 22.04.2020
+
+
+Pristupni podaci  (cPanel)
+
+cPanel url: https://dejan.in:2083  (tj. naziv-domena.com/cpanel)
+
+Korisnicko ime: dejanin
+Lozinka: Am;F4hv86.wUN7
+
+Ako Vam je domen nedostupan, privremeno možete koristiti: http://185.119.88.55:2082 
+Ukoliko ste sa unlimited.rs hostingom i registrovali domen kod nas, imajte na umu da 
+je moguce da domen odmah ne bude dostupan, što može zavisiti i od Vašeg internet provajdera 
+(medutim, period nedostupnosti je retko duži od 180 minuta).
+
+ 
+
+Informacije o serveru
+
+Ime servera: S5unlimited
+IP adresa servera: 185.119.88.55
+
+Ukoliko domen nije kupljen preko nas (vec je registrovan), a želite da ga koristite na ovom 
+nalogu, potrebno je da podesite nameservere domena:
+
+Nameserver 1: ns9.unlimited.rs (185.119.88.56)
+Nameserver 2: ns10.unlimited.rs (185.119.88.57)
+
+
+Uploadovanje sajta/FTP pristupni podaci
+
+Vaš sajt možete “podici” preko cPanel opcije File Manager ili putem FTP protokola.
+Takode, popularne skripte (npr. WordPress, Joomla, Magento), instalirajte jednostavno putem 
+alatke Softaculous (u cPanelu dostupne i besplatne).
+
+Web URL: http://dejan.in
+
+FTP podaci
+
+Privremeni FTP Hostname (server): 185.119.88.55
+Podaci (username, password) su identicni kao na cPanel-u (gore ispisani)
+
+FTP Hostname: dejan.in  ili  s5.unlimited.rs
+Port: 21;  (ukoliko imate problem sa povezivanjem, iskljucite SSL/TLS i izaberite "Encryption: Plain/Off)
+Preporuka za FTP klijent softver: WinSCP, Filezilla, Total Commander
+Uputstva za povezivanje na FTP.
+
+
+Email podešavanja
+
+Email adrese (npr. office@dejan.in) kreirate preko cPanel opcije Email accounts.
+
+Da biste pristupili email-u preko popularnih desktop programa (npr. Microsoft Outlook, Thunderbird) 
+i mobilnih aplikacija (Gmail, Yahoo, Outlook), potrebni su Vam sledeci podaci:
+
+POP3/IMAP incoming server: mail.dejan.in  ili  s5.unlimited.rs
+SMTP outgoing server: mail.dejan.in  ili  s5.unlimited.rs
+Username: Vaša email adresa koju ste kreirali (npr. office@dejan.in)
+Password: koji ste Vi definisali
+
+SSL portovi:
+Incoming (dolazni) IMAP Port: 993, POP3 Port: 995.
+Outgoing (odlazni) SMTP Port: 465
+
+Webmail je dostupan na adresi: https://dejan.in/webmail
+(Naša preporuka je RoundCube interfejs)
+
+ 
+
+Podrška
+
+Podrška je dostupna putem 24/7 email-a info@unlimited.rs, odnosno otvaranjem tiketa u korisnickom panelu 
+na adresi https://panel.unlimited.rs
+
+Premium podrška sa prioritetom rešavanja problema i putem chata i telefona vam je dostupna
+ po ceni od 7.000 dinara na godišnjem nivou.
+ 
+
+unlimited.rs / Korisnicka služba
++381 11 428 08 08 / info@unlimited.rs
+
+Bulevar Milutina Milankovica 9e, Beograd
+https://unlimited.rs
+
+ 
+
+OBAVEŠTENJE O POVERLJIVOSTI: Informacije u ovom Email-u i dodacima su poverljive i zašticene zakonom. Namenjene su za korišcenje samo onima kojima je poruka upucena. Komunikacija putem Interneta nije sigurna, stoga United Internet doo Beograd, ne preuzima zakonsku odgovornost za sadržaj ove poruke, odnosno verodostojnost dokumenata sadržanih u njoj. Ukoliko niste navedeni kao primalac poruke, molimo Vas da nas odmah obavestite i potom obrišete ovaj dokument. Ne otkrivajte sadržaj ovog dokumenta drugim osobama i nemojte ga kopirati. Kršenje pravila o poverljivosti informacija se sankcioniše u skladu sa zakonom. This e-mail message may contain confidential or legally privileged information and is intended only for the use of the intended recipient(s). Any unauthorized disclosure, dissemination, distribution, copying or the taking of any action in reliance on the information herein is prohibited. E-mails are not secure and cannot be guaranteed to be error free as they can be intercepted, amended, or contain viruses. Anyone who communicates with us by e-mail is deemed to have accepted these risks. United Internet ltd is not responsible for errors or omissions in this message and denies any responsibility for any damage arising from the use of e-mail.
