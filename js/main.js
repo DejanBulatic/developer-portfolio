@@ -83,27 +83,16 @@ $(document).ready(function () {
 
 
 
+// SIDE BAR BURGER BUTTON ANIMATION  
 
+    $('.side-burger').click(function () {
 
-
-// SIDE BAR TOGGLE ON DESCTOP
-
-    $('.side-bar-toggle').click(function () {
-        $(this).toggleClass('side-bar-toggle-closed');
+        $(this).toggleClass('active side-burger-move-right');
         $('.side-bar').toggleClass('side-bar-hide');
         $('main').toggleClass('main-full-width');
-        //SMALL ARROW DIRECTION
-        if ($('.side-bar-hide').length > 0) {
-            $('.side-bar-toggle').removeClass('fa-angle-left toggle-border-left');
-            $('.side-bar-toggle').addClass('fa-angle-right toggle-border-right');
-        } else {
-            $('.side-bar-toggle').removeClass('fa-angle-right toggle-border-right');
-            $('.side-bar-toggle').addClass('fa-angle-left toggle-border-left');
 
 
-        }
-    });
-
+    });// SIDE BAR BURGER BUTTON ANIMATION END
 
 
 
